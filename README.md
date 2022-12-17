@@ -17,8 +17,16 @@
 
 ### Chapter 2
 練習排版和基本的重構程式碼。
+
 ##### 相關連結
 * [在 SwiftUI 中实现视图居中的若干种方法](https://www.fatbobman.com/posts/centering_the_View_in_SwiftUI/)
 * 除了影片中搭配計算屬性使用 **@ViewBuilder**，你可能也會[在啟動或 closure 中使用它](https://swiftontap.com/viewbuilder)。
 
 ---
+
+### Chapter 3
+介紹 SwiftUI 中常用的屬性包裝：State、Binding 和 Environment；練習建立清單、表單，並使用 enum 整理程式碼。
+
+##### 相關連結
+* [EnvironmentValues 環境變數](https://developer.apple.com/documentation/swiftui/environmentvalues)
+* 影片中提到的「**在 result builder 中，local 變數會被當作建造的 block**」，詳細的資訊可以在這個 [evolution 記錄](https://github.com/apple/swift-evolution/blob/main/proposals/0289-result-builders.md#the-result-builder-transform)中了解，在 *The result builder transform* 的分類下可以認識 result builder 對不同語句的判斷。
