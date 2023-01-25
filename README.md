@@ -7,8 +7,8 @@
 ##### 相關連結
 * [1-1 展示的手機版本、升級趨勢網站](https://mixpanel.com/trends)
 * [1-3 使用的盤子圖片來源](https://www.flaticon.com/free-sticker/dinner_7603521)
-* [1-5 展示的裝置資訊網站](https://mixpanel.com/trends)
-* [1-5 排版類型延伸閱讀](https://iosref.com/res)
+* [1-5 展示的裝置資訊網站](https://iosref.com/res)
+* [1-5 排版類型延伸閱讀](http://defagos.github.io/understanding_swiftui_layout_behaviors/)
 * 如果你從 UIKit 過來可能會問 AppDelegate 去哪了。
 請搭配[這個 property wrapper](https://developer.apple.com/documentation/swiftui/uiapplicationdelegateadaptor) 使用。
 不過，如果只是要啟動時進行一些操作，在 App 的 init 中進行即可；如果是畫面切換相關事件，請用 [ScenePhase](https://developer.apple.com/documentation/swiftui/scenephase)。
@@ -39,6 +39,6 @@
 ##### 相關連結
 * [官方的資料持久化文件](https://developer.apple.com/documentation/swiftui/persistent-storage)
 * [會新增 Presentation 的調整器](https://developer.apple.com/documentation/swiftui/view-presentation)
-* 影片中提到可以嘗試**建立自己的 AppStorage 屬性包裝**，如果有興趣可以參考 SwiftLee 的[這篇文章](https://www.avanderlee.com/swift/appstorage-explained/
+* 影片中提到可以嘗試**建立自己的 AppStorage 屬性包裝**，如果有興趣可以參考 [SwiftLee 的這篇文章](https://www.avanderlee.com/swift/appstorage-explained/
 )，不過這個是個相對進階的內容，你會需要有基本 Combine 概念、了解 ObservableObject 和 DynamicProperty 。
 * 使用 FileManager 時，你可能會需要知道[如何取得檔案 URL](https://chaocode.co/blog/getting-url)。
