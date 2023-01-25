@@ -30,3 +30,15 @@
 ##### 相關連結
 * [EnvironmentValues 環境變數](https://developer.apple.com/documentation/swiftui/environmentvalues)
 * 影片中提到的「**在 result builder 中，local 變數會被當作建造的 block**」，詳細的資訊可以在這個 [evolution 記錄](https://github.com/apple/swift-evolution/blob/main/proposals/0289-result-builders.md#the-result-builder-transform)中了解，在 *The result builder transform* 的分類下可以認識 result builder 對不同語句的判斷。
+
+---
+
+### Chapter 4
+介紹 iOS 環境原生的資料持久化方式以及編碼的概念介紹，並實作一個設定畫面，使用 AppStorage 儲存布林、enum 和 Array 的資料。
+
+##### 相關連結
+* [官方的資料持久化文件](https://developer.apple.com/documentation/swiftui/persistent-storage)
+* [會新增 Presentation 的調整器](https://developer.apple.com/documentation/swiftui/view-presentation)
+* 影片中提到可以嘗試**建立自己的 AppStorage 屬性包裝**，如果有興趣可以參考 SwiftLee 的[這篇文章](https://www.avanderlee.com/swift/appstorage-explained/
+)，不過這個是個相對進階的內容，你會需要有基本 Combine 概念、了解 ObservableObject 和 DynamicProperty 。
+* 使用 FileManager 時，你可能會需要知道[如何取得檔案 URL](https://chaocode.co/blog/getting-url)。
