@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='macos' display-mode='rendered' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='1 介紹'/>
+        <page name='2 編碼與解法複習'/>
+        <page name='3 回傳資料示範'/>
+        <page name='4 使用不同名稱'/>
+        <page name='5 用 enum 宣告不同名稱'/>
+        <page name='6 處裡不同的命名慣用法'/>
+        <page name='7 Nested 資料'/>
+        <page name='8 解析 UnkeyedContainer'/>
+        <page name='9 My Syntax Sugar'/>
+    </pages>
+</playground>

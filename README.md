@@ -56,3 +56,16 @@
   
 * [在 iOS16 加上工具列的背景色](https://sarunw.com/posts/swiftui-tabview-color/)：文章是針對 TabBar 介紹，不過這個調整器 `toolbarBackground` 也能用來修改 Navigation Bar。
 * 你可能會發現 TabBar 在 iOS14 以前長得不一樣 🥲，如果你想要全部統一的話可以參考[這篇文章中的程式碼](https://blog.personal-factory.com/2021/12/29/ios15-transparent-navigationbar-and-tabbar-by-default/)做修改。
+
+---
+
+### Chapter 6：網路呼叫
+介紹基本的網路概念，並且用 The Cat API 實作網路呼叫，實作一個專門處理網路的 Manager 以及處理相關錯誤。
+
+##### 相關連結
+* 6-2 [常見 HTTP 狀態碼](https://developer.mozilla.org/zh-TW/docs/Web/HTTP/Status)
+* 6-2 [MIME 類型名稱對照](https://www.iana.org/assignments/media-types/media-types.xhtml)
+* 6-2 [判斷是否使用 Cache 資料的流程圖](https://developer.apple.com/documentation/foundation/nsurlrequest/cachepolicy/useprotocolcachepolicy)
+* 6-3 影片中提到的[將回傳加入 cache 的條件](https://developer.apple.com/documentation/foundation/urlsessiondatadelegate/1411612-urlsession)
+* [StateObject 的文件](https://developer.apple.com/documentation/swiftui/stateobject)：這個文件簡單介紹了搭配 ObservableObject 的三個屬性包裝器，以及它們的更新時機。建議大概閱讀啟動和更新的部分，當未來遇到 StateObject 重複被啟動或是沒有如預期的更新的時候再次回來閱讀。
+* 如果對 StateObject 和 ObservedObject 的差別有疑惑，可以參考 onevcat 的[這篇文章](https://onevcat.com/2020/06/stateobject/)。
