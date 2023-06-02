@@ -67,5 +67,11 @@
 * 6-2 [MIME 類型名稱對照](https://www.iana.org/assignments/media-types/media-types.xhtml)
 * 6-2 [判斷是否使用 Cache 資料的流程圖](https://developer.apple.com/documentation/foundation/nsurlrequest/cachepolicy/useprotocolcachepolicy)
 * 6-3 影片中提到的[將回傳加入 cache 的條件](https://developer.apple.com/documentation/foundation/urlsessiondatadelegate/1411612-urlsession)
-* [StateObject 的文件](https://developer.apple.com/documentation/swiftui/stateobject)：這個文件簡單介紹了搭配 ObservableObject 的三個屬性包裝器，以及它們的更新時機。建議大概閱讀啟動和更新的部分，當未來遇到 StateObject 重複被啟動或是沒有如預期的更新的時候再次回來閱讀。
-* 如果對 StateObject 和 ObservedObject 的差別有疑惑，可以參考 onevcat 的[這篇文章](https://onevcat.com/2020/06/stateobject/)。
+* 6-5 影片中使用的[快速產生 JSON 解析程式碼的網站](https://app.quicktype.io/)。要記得用自動產生的程式碼的時候，不管多簡單的資料都要自己再檢查一遍哦
+* 6-8 [StateObject 的文件](https://developer.apple.com/documentation/swiftui/stateobject)：這個文件簡單介紹了搭配 `ObservableObject` 的三個屬性包裝器，以及它們的更新時機。建議大概閱讀啟動和更新的部分，當未來遇到 StateObject 重複被啟動或是沒有如預期的更新的時候再次回來閱讀。
+* 6-8 如果對 **StateObject 和 ObservedObject** 的差別有疑惑，可以參考 onevcat 的[這篇文章](https://onevcat.com/2020/06/stateobject/)。
+* 6-11 [onAppear 和 task 調整器的差別](https://byby.dev/swiftui-task-vs-onappear)，這篇文章提到的差別我覺得都蠻重要的，除了影片中提過的，還有額外講到 task 搭配 id 的用法。
+* 6-11 如果對於使用`Task`和`Task.detached`的時機不太確定，可以參考[這篇文章](https://www.donnywals.com/understanding-unstructured-and-detached-tasks-in-swift/)裡面的 **When to use unstructured tasks** 和 **When to use detached tasks**。
+  ###### 另外，目前主流的做法是避免使用 detached，這並不是因為它不好，而是沒有什麼非得要用的原因（i.e. 沒必要讓自己的程式碼變複雜）。不過，我個人覺得 detached 的 explicit 對於初期掌握自己的程式碼在做什麼很有幫助，還有因為它沒有繼承而產生的一些報錯和警告也對初期學習很有幫助。
+* 6-11 如果想瞭解更多關於`onAppear`出現的時機，可以看這篇關於 [View 的生命週期](https://www.vadimbulavin.com/swiftui-view-lifecycle/) 的文章。
+* 6-11 影片中提到的，ObservableObject 會讓整個 View 進到 MainActor，[這篇文章](https://oleb.net/2022/swiftui-task-mainactor/)詳細講了關於 View struct 神秘的 @MainActor 情況。再一次強調，我覺得不用太在意這個，遇到這個錯誤就直接改進 MainActor 中就好。
