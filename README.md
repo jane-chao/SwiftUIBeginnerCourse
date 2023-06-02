@@ -60,7 +60,13 @@
 ---
 
 ### Chapter 6：網路呼叫
-介紹基本的網路概念，並且用 The Cat API 實作網路呼叫，實作一個專門處理網路的 Manager 以及處理相關錯誤。
+介紹基本的網路概念和 Codable 的進一步應用，並且建立一個串接 [The Cat API](https://thecatapi.com/) 的新專案。
+新專案的實作內容包含：
+- 建立一個專門處理網路的 Manager。
+- 處理錯誤和顯示 alert。
+- **觀察 reference type**的`ObservableObject`。
+- 自動載入更多內容的 Infinite Scroll。
+- 認識`.task` 調整器和建立一個新的`Task`的差別。
 
 ##### 相關連結
 * 6-2 [常見 HTTP 狀態碼](https://developer.mozilla.org/zh-TW/docs/Web/HTTP/Status)
